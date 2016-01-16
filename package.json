@@ -1,6 +1,6 @@
 {
   "name": "react-dynamic-modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamically generated modal dialog component for ReactJS",
   "main": "./lib/index.js",
   "scripts": {},
