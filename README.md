@@ -1,5 +1,7 @@
 # react-dynamic-modal
 
+[![Join the chat at https://gitter.im/xue2han/react-dynamic-modal](https://badges.gitter.im/xue2han/react-dynamic-modal.svg)](https://gitter.im/xue2han/react-dynamic-modal?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Dynamically generated modal dialog component for ReactJS.
 It is stateless and can be rendered only when needed.
 
