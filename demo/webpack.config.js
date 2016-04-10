@@ -1,8 +1,8 @@
 module.exports = {
-  entry : './demo/bootstrap/app.jsx',
+  entry : './src/app.jsx',
   output: {
-    filename: 'bootstrap.js',
-    path: './demo/build',
+    filename: 'main.js',
+    path: 'build/',
   },
   module: {
     loaders: [

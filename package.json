@@ -1,9 +1,11 @@
 {
   "name": "react-dynamic-modal",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Dynamically generated modal dialog component for ReactJS",
-  "main": "./lib/index.js",
-  "scripts": {},
+  "main": "./lib",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/xue2han/react-dynamic-modal.git"
@@ -27,6 +29,7 @@
     "dynamic-dialog"
   ],
   "devDependencies": {
+    "babel-cli": "^6.7.5",
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
@@ -38,7 +41,7 @@
     "react-dom": "^0.14.3"
   },
   "dependencies": {
-
-    "lodash.assign": "^3.2.0"
+    "lodash.assign": "^3.2.0",
+    "react-prefixr": "^0.1.0"
   }
 }
