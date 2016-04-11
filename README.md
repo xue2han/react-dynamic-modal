@@ -11,6 +11,9 @@ Most of modal dialog components for React have a common shortcoming : you have t
 # Demos
 * http://xue2han.github.io/react-dynamic-modal
 
+## Install
+`npm install --save react-dynamic-modal`
+
 ## Usage
 
 ```js
