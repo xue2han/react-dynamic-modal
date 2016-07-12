@@ -1,6 +1,6 @@
 {
   "name": "react-dynamic-modal",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Dynamically generated modal dialog component for ReactJS",
   "main": "./lib",
   "scripts": {
@@ -37,8 +37,8 @@
     "webpack": "^1.12.9"
   },
   "peerDependencies": {
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react": ">=0.14.0",
+    "react-dom": ">=0.14.0"
   },
   "dependencies": {
     "lodash.assign": "^3.2.0",
