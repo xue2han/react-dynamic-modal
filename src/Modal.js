@@ -57,7 +57,7 @@ export class Modal extends Component{
    }
    componentDidMount(){
       const transitionTimeMS = this.getTransitionDuration();
-      setTimeout(() => this.setState({open : true}),0);
+      this.openTimer = setTimeout(() => this.setState({open : true}), 0);
       onClose = (callback) => {
          this.setState({open: false}, () => {
            this.closeTimer = setTimeout(callback, transitionTimeMS);
@@ -66,6 +66,7 @@ export class Modal extends Component{
    }
    componentWillUnmount(){
       onClose = null;
+      clearTimeout(this.openTimer);
       clearTimeout(this.closeTimer);
    }
    getTransitionDuration(){
