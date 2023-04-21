@@ -119,7 +119,7 @@ const renderModal = () => {
       node = document.createElement('div');
       document.body.appendChild(node);
    }
-   ReactDOM.render(component,node);
+   ReactDOM.createRoot(node).render(component);
 }
 
 export const ModalManager = {
